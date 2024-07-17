@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:#A0AECD;
+}
+
+h1{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.d-flex input{
+    border-radius: 20px;
+    border: solid 2px rgb(141, 195, 216);
+}
+
+.d-flex input:focus{
+  outline: rgb(118, 164, 207);
+  border-color: rgb(118, 164, 207);
+  box-shadow: 0 0 0 0.25rem rgb(118, 164, 207);
+}
+  
+main {
+    padding: 1rem;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    padding: 0.5rem;
+    text-align: left;
+    color: white;
+}
+th{
+    background-color: #0212258e;
+}
+  
+#chartContainer {
+    margin-top: 1rem;
+}
+  
